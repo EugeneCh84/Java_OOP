@@ -1,4 +1,4 @@
-package Java_OOP.Seminar1;
+package Seminar1;
 
 public class Programm {
     public static void main(String[] args) {

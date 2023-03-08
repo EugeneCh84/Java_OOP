@@ -1,4 +1,4 @@
-package Java_OOP.Seminar_2;
+package Seminar_2;
 
 public class Node {
     public Node(Person p1, PersonRelations re, Person p2) {

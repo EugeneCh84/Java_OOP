@@ -1,4 +1,4 @@
-package Java_OOP.Seminar_2;
+package Seminar_2;
 
 import java.util.ArrayList;
 import java.util.Scanner;
