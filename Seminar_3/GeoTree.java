@@ -17,7 +17,7 @@ public interface GeoTree extends Printer{
     void appendVifeHusbent(Person vife, Person husbent); 
 
     default void print() throws IOException{
-        FileWriter filewr = new FileWriter("Result.txt", true);
+        FileWriter filewr = new FileWriter("Seminar_3/Result.txt", true);
         for (Node node:getTree()){
             filewr.write(node.toString());
             filewr.write('\n');

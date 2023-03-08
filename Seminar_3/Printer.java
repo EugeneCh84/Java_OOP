@@ -10,7 +10,7 @@ public interface Printer {
 
 
     default void print(ArrayList<Person> personlist) throws IOException{
-        FileWriter filewr = new FileWriter("Result.txt", true);
+        FileWriter filewr = new FileWriter("Seminar_3/Result.txt", true);
         for (Person person:personlist){
             filewr.write(person.getFullName());
             filewr.write('\n');
