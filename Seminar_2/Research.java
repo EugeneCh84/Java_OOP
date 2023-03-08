@@ -28,6 +28,7 @@ public class Research {
         Scanner in = new Scanner(System.in);
         int age = in.nextInt();
         System.out.println("Люди, младше: " + age + ":");
+        in.close();
 
         for (Node t : tree) {
 

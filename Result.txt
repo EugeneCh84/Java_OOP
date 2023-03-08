@@ -1,0 +1,16 @@
+<Ирина parent Вася>
+<Вася children Ирина>
+<Ирина parent Маша>
+<Маша children Ирина>
+<Вася parent Женя>
+<Женя children Вася>
+<Вася parent Ваня>
+<Ваня children Вася>
+<Ирина vife Игорь>
+<Игорь husbent Ирина>
+<Игорь parent Вася>
+<Вася children Игорь>
+<Игорь parent Маша>
+<Маша children Игорь>
+<Игорь parent Саша>
+<Саша children Игорь>
