@@ -9,7 +9,6 @@ public class PrintTaskInPlaner {
         this.planerSplite = planerSplite;
     }
 
-    // метод печати задач с определенным приоритером
     public void printTask(int prioritet) {
 
         for (String[] element : planerSplite) {

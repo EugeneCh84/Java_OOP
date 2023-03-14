@@ -15,7 +15,6 @@ public class AddTask {
 
     }
 
-    // метод добавления строки в планер в файл csv
     public void writeInPlaner() throws IOException {
 
         FileWriter addTask = new FileWriter("Seminar_4/planer.csv", true);
@@ -28,15 +27,12 @@ public class AddTask {
 
     }
 
-    // метод формирования строки с задачей для добавления в csv файл
     public String addInfo() throws IOException {
 
         int id = maxID();
 
-        // проставили ID, предварительно узнав крайний ID в планере
         addInfo = addInfo + (id + 1) + ";";
 
-        // добавили текущую дату и время
         Date date = new Date();
         SimpleDateFormat formatter = new SimpleDateFormat("dd-MM-yyyy HH:mm");
         String nowDate = formatter.format(date);
@@ -59,7 +55,6 @@ public class AddTask {
         return addInfo;
     }
 
-    // метод поиска максимального ID в сушествующем планере
     public int maxID() throws IOException {
         PrintPlaner printPlaner = new PrintPlaner();
         ArrayList<String[]> planerSplite = printPlaner.planerSplite(printPlaner.planerArrayList());

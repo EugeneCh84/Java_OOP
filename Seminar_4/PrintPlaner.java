@@ -14,7 +14,6 @@ public class PrintPlaner {
 
     }
 
-    // метод переброса csv файла в ArrayList
     public ArrayList<String> planerArrayList() throws IOException {
         FileReader inFile = new FileReader("Seminar_4/planer.csv");
         file = new Scanner(inFile);
@@ -28,7 +27,6 @@ public class PrintPlaner {
 
     }
 
-    // метод преобразования базы из ArrayList<String> в ArrayList <String[]>
     public ArrayList<String[]> planerSplite(ArrayList<String> planer) {
         for (String element : planer) {
 
@@ -39,7 +37,6 @@ public class PrintPlaner {
         return planerSplite;
     }
 
-    // метод печати планера
     public void printPlaner(ArrayList<String[]> planerSplite) {
         for (String[] element : planerSplite) {
 
