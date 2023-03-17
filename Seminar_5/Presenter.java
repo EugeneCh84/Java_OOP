@@ -22,16 +22,16 @@ public class Presenter {
 
         switch (view.mathOperation()){
             case 1:
-                System.out.println(compcalc.summ());
+                view.printComplex(compcalc.summ());
             break;
             case 2:
-                System.out.println(compcalc.diff());
+                view.printComplex(compcalc.diff());
             break;
             case 3:
-                System.out.println(compcalc.mult());
+                view.printComplex(compcalc.mult());
             break;
             case 4:
-                System.out.println(compcalc.divide());
+                view.printComplex(compcalc.divide());
             break;
         }
     }

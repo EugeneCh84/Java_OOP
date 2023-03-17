@@ -35,4 +35,7 @@ public class Veiw {
         return userNumber;
     }
     
+    public void printComplex(Complex str){
+        System.out.println(str);
+    }
 }

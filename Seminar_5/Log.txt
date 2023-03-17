@@ -1,3 +1,15 @@
 Fri Mar 17 02:47:02 EDT 2023:Number X:1.0
 Fri Mar 17 02:47:04 EDT 2023:Number Y:4.0
 Fri Mar 17 02:47:08 EDT 2023:Multiplay :
+Fri Mar 17 05:33:46 EDT 2023:Number X:1.0
+Fri Mar 17 05:33:47 EDT 2023:Number A:2.0
+Fri Mar 17 05:33:47 EDT 2023:Number Y:3.0
+Fri Mar 17 05:33:48 EDT 2023:Number B:4.0
+Fri Mar 17 05:33:50 EDT 2023:Summ:
+Fri Mar 17 05:33:50 EDT 2023:Complex number 3.0 , 7.0i created
+Fri Mar 17 05:35:39 EDT 2023:Number X:1.0
+Fri Mar 17 05:35:39 EDT 2023:Number A:2.0
+Fri Mar 17 05:35:40 EDT 2023:Number Y:3.0
+Fri Mar 17 05:35:40 EDT 2023:Number B:4.0
+Fri Mar 17 05:35:41 EDT 2023:Summ:
+Fri Mar 17 05:35:41 EDT 2023:Complex number 3.0 , 7.0i created
