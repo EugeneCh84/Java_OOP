@@ -7,7 +7,7 @@ import java.util.Date;
 public class Logger {
     public static void logDate(String msg){
         
-        try(FileWriter file = new FileWriter("./Seminar_5/Log.log", true)) {
+        try(FileWriter file = new FileWriter("./Seminar_5/Log.txt", true)) {
             Date currentDT = new Date();
             StringBuilder sb = new StringBuilder();
             sb.append(currentDT.toString() + ":" + msg + "\n");
