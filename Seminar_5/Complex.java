@@ -10,7 +10,7 @@ public class Complex extends SetDigits {
 
     @Override
     public String toString(){
-        return (x + "" + y + "i");
+        return (x + " " + y + "i");
     }
     
 }
