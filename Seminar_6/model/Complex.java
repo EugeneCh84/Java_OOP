@@ -1,6 +1,8 @@
-package Seminar_5;
+package Seminar_6.model;
 
-public class Complex extends SetDigits {
+import Seminar_6.logger.Logger;
+
+public class Complex extends SetDigits{
     
     public Complex(double x, double y){
         this.x = x;
@@ -12,6 +14,4 @@ public class Complex extends SetDigits {
     public String toString(){
         return (x + " " + y + "i");
     }
-    
 }
-
